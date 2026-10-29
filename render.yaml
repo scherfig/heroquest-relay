@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: heroquest-relay
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node relay.js
